@@ -15,6 +15,6 @@ public class EurekaClient2Application {
 
 	@GetMapping("/")
 	String restTow(){
-		return "Hello Rest two!!!!";
+		return "Hello from API Rest eureka-client2 !!!!";
 	}
 }

@@ -15,7 +15,7 @@ public class EurekaClientApplication {
 	}
 	@GetMapping("/")
 	String restOne(){
-		return "Hello !!!!";
+		return "Hello from API Rest eureka-client !!!!";
 	}
 
 }
